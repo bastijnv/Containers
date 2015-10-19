@@ -16,4 +16,10 @@ public class Stack {
         empty = false;
         return self;
     }
+    
+    public func pop() -> Stack{
+        empty = true;
+        return self;
+    }
+    
 }
