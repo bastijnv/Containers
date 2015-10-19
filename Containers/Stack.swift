@@ -17,9 +17,9 @@ public class Stack {
         return self;
     }
     
-    public func pop() -> Stack{
+    public func pop() -> Int{
         empty = true;
-        return self;
+        return 1;
     }
     
 }

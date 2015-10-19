@@ -16,15 +16,15 @@ class StackTests: QuickSpec {
             }
             
             it("Can pop"){
-                var stack = Stack().push(1);
+                let stack = Stack().push(1);
                 expect(stack.isEmpty()).to(beFalse());
-                expect(stack.pop().isEmpty()).to(beTrue());
+                expect(stack.pop()).to(equal(1));
+                expect(stack.isEmpty()).to(beTrue());
             }
             
             it("Can push"){
-                var stack = Stack();
+                let stack = Stack();
                 expect(stack.push(1).isEmpty()).to(beFalse());
-                
             }
         }
         
