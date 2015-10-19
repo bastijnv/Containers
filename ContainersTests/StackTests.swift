@@ -54,10 +54,6 @@ class StackTests: QuickSpec {
                 stack.pop();
                 expect(raised).to(beTrue());
             }
-            
-            it("Can inspect whether the stack is empty"){
-                
-            }
         }
     }
 }
